@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Wikipedia Viewer</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link type='text/css' rel='stylesheet' href='css/styles.css'>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='search-options' id='search-options'>
+				<div class='random'>Click to get a random Wikipedia article. <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><button id='random-search'>random</button></a>
+				</div>
+
+				<div class='custom'>Or enter your search term in the box. <input id='search-term' type='text'> <button id='search-button'>Search</button>
+				</div>
+			</div>
+
+
+			<div id='results' class='results'>
+				<ul id='result-list'>
+				</ul>
+				<button id='new-search'>New Search</button>
+			</div>
+
+		</div>
+
+		<script src='js/main.js'></script>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+	box-sizing: border-box;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #cee6e6;
+	font-size: 1.2rem;
+	line-height: 2;
+}
+
+.container {
+	padding: 0 1rem 0 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px double #38cfcf;
+	max-width: 98%;
+	min-height: 98%;
+	background-color: ivory;
+}
+
+.search-options{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.custom {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+/* =================== JS Dynamically generated content ===============*/
+
+.results {
+	word-wrap: break-word;
+	overflow: hidden;
+	max-width: 95%;
+	padding: 1rem;
+	display: none;
+}
+
+#results-list {
+	margin-top: 1rem;
+}
+
+/* ========================= Buttons =========================== */
+button {
+	padding: 10px;
+	font-size: 1rem;
+	outline: none;
+	border: 1px solid coral;
+	background-color: #ffefe9;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer; 
+	background-color: coral;
+	border: 1px solid #38cfcf;
+	color: ivory;
+}
+
+/* ============================ Media Queries ====================*/
+
+@media all and (min-width: 800px){
+	.container {
+		width: 75%;
+		height: 80%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
